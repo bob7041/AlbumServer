@@ -1,0 +1,371 @@
+albumRef, Track num, track title, length
+4, 1, Da Le Yaleo, 5:51
+4, 2, Love Of My Life, 5:48
+4, 3, Put Your Lights On, 4:47
+4, 4, Africa Bamba, 4:40
+4, 5, Smooth, 4:56
+4, 6, Do You Like the Way, 5:52
+4, 7, Maria Maria, 4:21
+4, 8, Migra, 5:24
+4, 9, Corazon Espinado, 4:32
+4, 10, Wishing It Was, 4:49
+4, 11, El Farol, 4:49
+4, 12, Primavera, 5:17
+4, 13, The Calling, 7:48
+1, 1, American Dream, 3:15
+1, 2, Got It Made, 4:36
+1, 3, Name of Love, 4:28
+1, 4, Dont Say Goodbye, 4:23
+1, 5, This Old House, 4:44
+1, 6, Nighttime For The Generals, 4:20
+1, 7, Shadowland, 4:33
+1, 8, Drivin Thunder, 3:12
+1, 9, Clear Blue Skies, 3:05
+1, 10, That Girl, 3:27
+1, 11, Compass, 5:19
+1, 12, Soldiers Of Peace, 3:43
+1, 13, Feel Your Love, 4:09
+1, 14, Night Song, 4:17
+3, 1, True Love Will Never Fade, 4:21
+3, 2, The Scafolders Wife, 3:52
+3, 3, The Fizzy and the Still, 4:07
+3, 4, Heart Full of Holes, 6:36
+3, 5, We Can Get Wild, 4:17
+3, 6, Secondary Waltz, 3:43
+3, 7, Punish the Monkey, 4:36
+3, 8, Let it All Go, 5:17
+3, 9, Behind With The Rent, 4:46
+3, 10, The Fish and the Bird, 3:45
+3, 11, Madame Genevas, 3:59
+3, 12, In the Sky, 7:29
+2, 1, If You Leave Me Now, 3:57
+2, 2, Saturday In The Park, 3:55
+2, 3, Feelin Stronger Everyday, 4:14
+2, 4, (Ive Been) Searchin So Long, 4:29
+2, 5, 25 or 6 to 4, 4:52
+2, 6, "Baby, What A Big Surprise", 3:05
+2, 7, Wishing You Were Here, 4:35
+2, 8, No Tell Lover, 3:52
+2, 9, Another Rainy Day In New Your City, 3:02
+2, 10, Does Anybody Really Know What Time It Is?, 2:54
+2, 11, Song For You, 3:41
+5, 1, Space Oddity, 5:18
+5, 2, Unwashed and Somewhat Slightly Dazed, 6:53
+5, 3, Letter to Hermione, 2:37
+5, 4, Cygnet Committee, 9:39
+5, 5, Janine, 3:26
+5, 6, An Occasional Dream, 3:01
+5, 7, Wild Eyed Boy from Freecloud, 4:53
+5, 8, God Knows I’m Good, 3:22
+5, 9, Memory of a Free Festival, 7:11
+6, 1, Are You Ready, 3:29
+6, 2, "Anybody’s Answer", 5:18
+6, 3, Time Machine, 3:45
+6, 4, High on a Horse, 2:56
+6, 5, TNUC, 8:43
+6, 6, Into the Sun, 6:29
+6, 7, Heartbreaker, 6:35
+6, 8, Call Yourself a Man, 3:06
+6, 9, "Can’t Be Too Long", 6:34
+6, 10, Ups and Downs, 5:01
+7, 1, Girl From the North Country, 3:44
+7, 2, Nashville Skyline Rag, 3:14
+7, 3, To Be Alone With You, 2:10
+7, 4, I Threw It All Away, 2:26
+7, 5, Peggy Day, 2:03
+7, 6, Lay Lady Lay, 3:19
+7, 7, One More Night, 2:25
+7, 8, "Tell Me That It Isn’t True", 2:43
+7, 9, Country Pie, 1:38
+7, 10, "Tonight I’ll Be Staying Here With You", 3:23
+8, 1, And It Stoned Me, 4:32
+8, 2, Moondance, 4:34
+8, 3, Crazy Love, 2:36
+8, 4, Caravan, 5:02
+8, 5, Into the Mystic, 3:28
+8, 6, Come Running, 2:31
+8, 7, These Dreams of You, 3:53
+8, 8, Brand New Day, 5:11
+8, 9, Everyone, 3:34
+8, 10, Glad Tidings, 3:42
+9, 1, "What’s Going On", 3:48
+9, 2, "What’s Happening Brother", 2:44
+9, 3, "Flyin’ High (in the Friendly Sky)", 3:49
+9, 4, Save the Children, 4:03
+9, 5, God is Love, 1:42
+9, 6, Mercy Mercy Me (The Ecology), 3:03
+9, 7, Right On, 7:15
+9, 8, Wholy Holy, 3:08
+9, 9, Inner City Blues (Make Me Wanna Holler), 5:46
+10, 1, I Saw the Light, 2:56
+10, 2, "It Wouldn’t Have Made Any Difference", 3:50
+10, 3, Wolfman Jack, 2:54
+10, 4, Cold Morning Light, 3:55
+10, 5, It Takes Two to Tango, 2:41
+10, 6, Sweeter Memories, 3:36
+10, 7, Intro, 1:11
+10, 8, Breathless, 3:15
+10, 9, The Night the Carousel Burned Down, 4:29
+10, 10, Saving Grace, 4:12
+10, 11, Marlene, 3:54
+10, 12, Song of the Viking, 2:36
+10, 13, I Went to the Mirror, 4:06
+10, 14, Black Maria, 5:20
+10, 15, One More Day (No Word), 3:43
+10, 16, "Couldn’t I Just Tell You", 3:35
+10, 17, Torch Song, 2:53
+10, 18, Little Red Lights, 4:51
+10, 19, "Ouverture: Money/Messin’ with the Kid", 2:29
+10, 20, Dust in the Wind, 3:49
+10, 21, Piss Aaron, 3:17 
+10, 22, "Hello It’s Me", 4:38
+10, 23, Some Folks Is Even Whiter Than Me, 4:00
+10, 24, You Left Me Sore, 3:14
+10, 25, Slut, 3:35
+11, 1, Rocks Off, 4:33
+11, 2, Rip This Joint, 2:23
+11, 3, Shake Your Hips, 3:00
+11, 4, Casino Boogie, 3:35
+11, 5, Tumbling Dice, 3:47
+11, 6, Sweet Virginia, 4:26
+11, 7, Torn and Frayed, 4:18
+11, 8, Sweet Black Angel, 2:58
+11, 9, Loving Cup, 4:26
+11, 10, Happy, 3:05
+11, 11, Turd on the Run, 2:38
+11, 12, Ventilator Blues, 3:24
+11, 13, I just Want to See His Face, 2:54
+11, 14, Let It Loose, 5:19
+11, 15, All Down the Line, 3:50
+11, 16, Stop Breaking Down, 4:34
+11, 17, Shine a Light, 4:14
+11, 18, Soul Survivor, 3:49
+12, 1, "Speak to Me/Breathe", 3:58
+12, 2, On the Run, 3:35
+12, 3, Time, 7:05
+12, 4, The Great Gig in the Sky, 4:44
+12, 5, Money, 6:23
+12, 6, Us and Them, 7:50
+12, 7, Any Colour You Like, 3:26
+12, 8, Brain Damage, 3:46
+12, 9, Eclipse, 2:01
+13, 1, Court and Spark, 2:46
+13, 2, Help Me, 3:22
+13, 3, Free Man in Paris, 3:03
+13, 4, "People’s Parties", 2:15
+13, 5, Same Situation, 2:57
+13, 6, Car on a Hill, 3:02
+13, 7, Down to You, 5:39
+13, 8, Just Like This Train, 4:24
+13, 9, Raised on Robbery, 3:07
+13, 10, Trouble Child, 4:00
+13, 11, Twisted, 2:21
+14, 1, Rednecks, 3:10
+14, 2, Birmingham, 2:47
+14, 3, Marie, 3:10
+14, 4, Mr. President (Have Pity on the Working Man), 2:47
+14, 5, Guilty, 3:10
+14, 6, Louisiana 1927, 2:58
+14, 7, Every Man a King, 1:02
+14, 8, Kingfish, 2:46
+14, 9, Naked Man, 3:12
+14, 10, A Wedding in Cherokee County, 3:10
+14, 11, Back on My Feet Again, 3:23
+14, 12, "Rollin’", 2:53
+15, 1, Monday Morning, 2:48
+15, 2, Warm Ways, 3:54
+15, 3, Blue Letter, 2:41
+15, 4, Rhiannon, 4:11
+15, 5, Over My Head, 3:36
+15, 6, Crystal, 5:13
+15, 7, Say You Love Me, 4:10
+15, 8, Landslide, 3:19
+15, 9, World Turning, 4:25
+15, 10, Sugar Daddy, 4:10
+15, 11, "I’m So Afraid", 4:23
+16, 1, Night, 3:00
+16, 2, Meeting Across the River, 3:16
+16, 3, "She’s the One", 4:30 
+16, 4, Thunder Road, 4:49
+16, 5, Born to Run, 4:30
+16, 6, Tenth Avenue Freeze-Out, 3:11
+16, 7, Backstreets, 6:31
+16, 8, Jungleland, 9:34
+17, 1, Wheels of Fortune, 4:57
+17, 2, "Takin’ It to the Streets", 3:56
+17, 3, 8th Avenue Shuffle, 4:44
+17, 4, "Losin’ End", 3:49
+17, 5, Rio, 3:52
+17, 6, For Someone Special, 5:05
+17, 7, "It Keeps You Runnin’", 4:22
+17, 8, Turn It Loose, 3:57
+17, 9, Carry Me Away, 4:07
+18, 1, Beau Soir, 2:42
+18, 2, Brezairola, 3:47
+18, 3, Verschwiegene Liebe, 2:57
+18, 4, Pavane, 5:29
+18, 5, Apres un reve, 3:24
+18, 6, In trutina, 2:11
+18, 7, "Lascia ch’io pianga", 3:37
+18, 8, Mondnacht, 3:56
+18, 9, Dank se Dir, Herr, 3:42
+18, 10, I loved You, 2:18
+19, 1, Hooked on You, 2:21
+19, 2, "She’s the Only One", 3:00
+19, 3, Lost Without Your Love, 2:56
+19, 4, Change of Heart, 3:18
+19, 5, Belonging, 3:19
+19, 6, Fly Away, 3:07
+19, 7, Lay Your Money Down, 2:42
+19, 8, The Chosen One, 4:26
+19, 9, "Today’s the First Day", 3:25
+19, 10, Hold Tight, 3:07
+19, 11, Our Lady of Sorrow, 4:16
+20, 1, Piano Concerto No. 1, 18:18
+20, 2, Lend Your Love to Me Tonight, 4:01
+20, 3, "C’est La Vie", 4:19
+20, 4, Hallowed be Thy Name, 4:37
+20, 5, Nobody Loves You Like I Do, 3:56
+20, 6, Closer to Believing, 5:34
+20, 7, The Enemy God Dances with the Black Spirits, 3:20
+20, 8, L.A. Nights, 5:42
+20, 9, New Orleans, 2:45
+20, 10, Two Part Invention in D Minor, 1:54
+20, 11, Food for Your Soul, 3:58
+20, 12, Tank, 5:08
+20, 13, Fanfare for the Common Man, 9:43
+20, 14, Pirates, 13:17
+21, 1, Introduction, 1:12
+21, 2, Theme and Variations 1-4, 3:05
+21, 3, Variations 5 and 6, 3:14
+21, 4, Variation 7, 1:51
+21, 5, Variation 8, 1:08
+21, 6, Variation 9, 1:43
+21, 7, Variation 10, 2:21
+21, 8, Variations 11-15, 3:52
+21, 9, Variation 16, 2:29
+21, 10, Variations 13-14 Varied, 1:54
+21, 11, Variation 17, 1:10
+21, 12, Variation 18, 2:58
+21, 13, "Variations 19, 20 and 5 Varied", 3:04
+21, 14, Variations 21 and 22, 1:59
+21, 15, Variation 23, 2:40
+22, 1, Gone Hollywood, 5:20
+22, 2, The Logical Song, 4:05
+22, 3, Goodbye Stranger, 5:50
+22, 4, Breakfast in America, 2:39
+22, 5, Oh Darling, 3:49
+22, 6, Take the Long Way Home, 4:57
+22, 7, Lord is It Mine, 4:10
+22, 8, Just another Nervous Wreck, 4:22
+22, 9, Casual Conversations, 2:59
+22, 10, Child of Vision, 7:26
+23, 1, The Wanderer, 3:47
+23, 2, Looking Up, 3:57
+23, 3, Breakdown, 4:08
+23, 4, Grand Illusion, 3:54
+23, 5, Running for Cover, 4:01
+23, 6, Cold Love, 3:38
+23, 7, "Who Do You Think You’re Foolin’", 4:18
+23, 8, Nightlife, 4:00
+23, 9, Stop Me, 3:44
+23, 10, I Believe in Jesus, 3:37
+24, 1, Clubland, 3:43
+24, 2, Lovers Walk, 2:19
+24, 3, "You’ll Never Be a Man", 2:59
+24, 4, Pretty Words, 3:13
+24, 5, Strict Time, 2:41
+24, 6, Luxembourg, 2:29
+24, 7, Watch Your Step, 3:00
+24, 8, New Lace Sleeves, 3:48
+24, 9, From a Whisper to a Scream, 2:57
+24, 10, Different Finger, 1:59
+24, 11, White Knuckles, 3:50
+24, 12, Shot With His Own Gun, 3:35
+24, 13, "Fish ‘N’ Chip Paper", 2:59
+24, 14, "Big Sister’s Clothes", 2:13
+25, 1, Get Closer, 2:31
+25, 2, The Moon Is a Harsh Mistress, 3:03
+25, 3, I knew You When, 2:55
+25, 4, Easy for You to Say, 3:58
+25, 5, People Gonna Talk, 2:39
+25, 6, Talk to Me of Mendocino, 3:01
+25, 7, "I Think It’s Gonna Work Out Fine", 4:00
+25, 8, Mr. Radio, 4:08
+25, 9, Lies, 2:35
+25, 10, Tell Him, 2:42
+25, 11, "Sometimes You Just Can’t Win", 2:33
+25, 12, My Blue Tears, 2:40
+26, 1, Separate Ways (Worlds Apart), 5:23
+26, 2, Send Her My Love, 3:55
+26, 3, Chain Reaction, 4:21
+26, 4, After the Fall, 5:01
+26, 5, Faithfully, 4:27
+26, 6, Edge of the Blade, 4:31
+26, 7, Troubled Child, 4:29
+26, 8, Back Talk, 3:17
+26, 9, Frontiers, 4:10
+26, 10, Rubicon, 4:19
+27, 1, Dr. Heckyll & Mr. Jive, 4:38
+27, 2, Overkill, 3:46
+27, 3, Settle Down My Boy, 3:30
+27, 4, Upstairs in My House, 4:02
+27, 5, No Sign of Yesterday, 6:15
+27, 6, "It’s a Mistake", 4:34
+27, 7, High Wire, 3:02
+27, 8, Blue for You, 3:55
+27, 9, I Like To, 4:03
+27, 10, No Restrictions, 4:31
+28, 1, Dum Dum Girl, 3:50
+28, 2, Such a Shame, 5:43
+28, 3, Renee, 6:22
+28, 4, "It’s My Life", 3:53
+28, 5, Tomorrow Started, 6:00
+28, 6, The Last Time, 4:23
+28, 7, Call in the Night Boy, 3:48
+28, 8, Does Caroline Know, 4:30
+28, 9, "It’s You", 4:42
+29, 1, Decoy, 8:36
+29, 2, Robot 415, 1:12
+29, 3, Code M.D., 6:01
+29, 4, Freaky Deaky, 4:38
+29, 5, What It Is, 4:34
+29, 6, "That’s Right", 11:16
+29, 7, "That’s What Happened", 3:33
+30, 1, Shout, 6:33
+30, 2, The Working Hour, 6:32
+30, 3, Everybody Wants to Rule the World, 4:11
+30, 4, "Mother’s Talk", 5:10
+30, 5, I Believe, 4:55
+30, 6, Broken, 2:39
+30, 7, Head Over Heals/Broken, 5:02
+30, 8, Listen, 6:50
+31, 1, Once Upon a Time, 5:46
+31, 2, All the Things She Said, 4:16 
+31, 3, Ghost Dancing, 4:45
+31, 4, Alive and Kicking, 5:26
+31, 5, Oh Jungleland, 5:14
+31, 6, I Wish You Were Here, 4:43
+31, 7, Sanctify Yourself, 4:57
+31, 8, Come a Long Way, 5:08
+32, 1, If You Love Somebody Set Them Free, 4:16
+32, 2, Love is the Seventh Wave, 3:32
+32, 3, Russian, 3:57
+32, 4, "Children’s Crusade", 5:02
+32, 5, Shadows in the Rain, 4:52
+32, 6, We Work the Black Seam, 5:43
+32, 7, Consider Me Gone, 4:21
+32, 8, The Dream of the Blue Turtles, 1:18
+32, 9, Moon Over the Bourbon Street, 4:00
+32, 10, Fortress Around Your Heart, 4:39
+33, 1, Transmutation/Industrial, 6:13
+33, 2, Thoughts, 2:51
+33, 3, Luz Amor y Vida, 5:09
+33, 4, En Aranjuez Con Tu Amor, 6:07
+33, 5, Contigo (With You), 4:55
+33, 6, Blue Latino, 5:55
+33, 7, La Danza, 6:55
+33, 8, Brujo, 4:08
+33, 9, The Trip, 3:54
+33, 10, Reflections, 3:45
+33, 11, Morning In Marin, 2:27

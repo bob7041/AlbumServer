@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <style>
+        
+    </style>
+     <title>Add an Artist</title>
+</head>
+<body>
+    <h2>Add an Artist</h2>
+    {{links}}
+    <br><br>
+    <form method="POST" , enctype="multipart/form-data" action='/add_artist'>
+        <div>
+            <label for="artist_name">Artist Name:</label>
+            <input id="aname" type="text" name="artist_name" required>
+        </div><br>
+        
+        <div>
+            <label for="city">City:</label>
+            <input id="acity" type="text" name="city" required>
+        </div><br>
+        
+        <div>
+            <label for="state">State/Country:</label>
+            <input id="astate" type="text" name="state" maxlength="2" size="2" required>
+        </div><br>
+        
+        <input id="add_artist" type="submit" value="Add">
+    </form>
+</body>
+</html>

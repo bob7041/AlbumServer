@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <style>
+        
+    </style>
+     <title>Add an Album Track</title>
+</head>
+<body>
+    <h2>Add an Album Track</h2>
+    {{links}}
+    <br><br>    
+    <form method="POST" , enctype="multipart/form-data" action='/add_track'>
+        <div>
+            <label for="album_name">Album:</label>
+            <select id="aid" name="albumID">
+                {{album_records}}
+            </select>
+        </div><br>
+        
+        <div>
+            <label for="track_num">Track Number:</label>
+            <input id="tnum" type="text" name="track_num" required>
+        </div><br>
+        
+        <div>
+            <label for="track_title">Track Title:</label>
+            <input id="ttitle" type="text" name="track_title" required>
+        </div><br>
+        
+        <div>
+            <label for="track_length">Track Length:</label>
+            <input id="tlength" type="text" name="track_length" required>
+        </div><br>
+                
+        <input id="tadd" type="submit" value="Add">
+    </form>
+</body>
+</html>

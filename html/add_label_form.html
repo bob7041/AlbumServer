@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <style>
+        
+    </style>
+     <title>Add a Record Label</title>
+</head>
+<body>
+    <h2>Add a Record Label</h2>
+    {{links}}
+    <br><br>    
+    <form method="POST" , enctype="multipart/form-data" action='/add_label'>
+        <div>
+            <label for="label_name">Label Name:</label>
+            <input id="lname" type="text" name="label_name" required>
+        </div><br>
+        
+        <input id="ladd" type="submit" value="Add">
+    </form>
+</body>
+</html>

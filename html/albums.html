@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+    <script type="text/javascript">
+        function Add2Total() 
+        {
+            // brute force method - loop thru all rows in table and add price for 
+            // checked rows. Possible improvement - add/subtract price for just 
+            // row(s) that changed (checkbox checked or unchecked) but I don't
+            // know how to identify the row in the table that changed.
+            
+            var table = document.getElementById("albums_table");
+            var total_price = 0.0; 
+            
+            // Reference the Checkboxes in Table.
+            var checkboxes = table.getElementsByTagName("INPUT");
+ 
+            // NOTE: checkboxes.length returns # rows excluding header (because
+            // header does not have a checkbox) but table.rows.length returns
+            // # rows including header, so table.rows.cell[i] must be offset by 1
+            
+            //Loop through the rows in the table. Start at 1 to skip header.
+            for (let i = 0; i < checkboxes.length; i++)
+            {
+                let row = table.rows[i+1];
+                if (checkboxes[i].checked) 
+                {
+                    total_price += parseFloat(row.cells[5].innerText);
+                }
+            }
+            rounded_price = Math.round(total_price * 100)/100
+            document.getElementById("total").value = rounded_price;
+        }   
+    </script>
+    
+     <title>Albums</title>
+</head>
+<body>
+    <h2>Album Server - Albums</h2>
+        {{links}}
+        <br><br>
+    <table id="albums_table">
+        <thead>
+        <tr>
+            <th>Buy</th>
+            <th>Album</th>
+            <th>Artist</th>
+            <th>Year</th>
+            <th>Label</th>
+			<th>Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{db_records}}
+        </tbody>
+    </table><br><br>
+    Total: $<input type="text" id="total" style="width:100px;" value=0 readonly>
+            
+</body>
+</html>

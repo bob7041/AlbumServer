@@ -1,0 +1,5 @@
+*.db
+notes/
+__pycache__/
+.spyproject/
+geckodriver.log

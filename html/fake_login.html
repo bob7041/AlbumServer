@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <title>Fake Login</title>
+	<script type="text/javascript">
+        function ValidatePW() 
+        {
+            var userPW = document.getElementById("loginPassword").value;
+            if (userPW != "password") 
+            {
+                alert("Invalid Password");
+                return false;
+            }
+            return true;
+        }
+    </script>
+  </head>
+  <body>
+	<h2>Album Server Fake Login page</h2>
+	<form METHOD="LINK" ACTION="albums">
+		<div>
+			<label>Name</label>
+			<input type="text" class="form-control" name="loginName" id="loginName" style="width:200px;" placeholder="login name" required>
+		</div>
+		<br>
+		<div>
+			<label>Password</label>
+			<input type="password" class="form-control" id="loginPassword" placeholder="password" style="width:200px;" required>
+		    <br>
+		</div>
+		<br>
+		<INPUT TYPE="submit"  id="loginBtn" VALUE="Login" onclick="return ValidatePW()">
+	</form>
+  </body>
+</html>

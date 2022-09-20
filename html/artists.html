@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+     <title>Artists</title>
+</head>
+<body>
+    <h2>Album Server - Artists</h2>
+    {{links}}
+    <br><br>  
+    <table>
+        <tr>
+            <th>Artist</th>
+            <th>City</th>
+            <th>State/Country</th>
+        </tr>
+        {{db_records}}
+    </table>
+</body>
+</html>

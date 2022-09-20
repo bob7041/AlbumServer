@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <style>
+        
+    </style>
+     <title>Add an Album</title>
+</head>
+<body>
+    <h2>Add an Album</h2>
+    {{links}}
+    <br><br>
+    <form method="POST" , enctype="multipart/form-data" action='/add_album'>
+        <div>
+            <label for="album_title">Album Title:</label>
+            <input id = "atitle" type="text" name="album_title" required>
+        </div><br>
+        
+        <div>
+            <label for="artistID">Artist:</label>
+            <select id ="aid" name="artistID">
+                {{artist_records}}
+            </select>
+        </div><br>
+        
+        <div>
+            <label for="year">Year:</label>
+            <input id="year" type="text" name="year" required>
+        </div><br>
+                
+        <div>
+            <label for="labelID">Record Label:</label>
+            <select id="lid" name="labelID">
+                {{record_labels}}
+            </select>
+        </div><br>
+        
+        <div>
+            <label for="price">Price:</label>
+            <input id="price" type="text" name="price" required>
+        </div><br>
+                
+        <input type="submit" value="Add">
+    </form>
+</body>
+</html>
