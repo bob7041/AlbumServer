@@ -20,10 +20,6 @@
     GNU General Public License for more details.
     
     TO DO:
-        * Albums page does not order properly. Albums inserted in initial csv load
-          are retrieved in correct alphabetical order, but rows added manually
-          are always at the bottom of the list. I don't know why. I tried adding
-          an index to the Albums table (album_title column) but that did not help.
         * Add search/next/prev and add/edit/delete capabilities to forms 
         * Add some styling (especially buttons at top of pages)
         * Add an Order form?

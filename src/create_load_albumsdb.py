@@ -111,7 +111,7 @@ dbconn.commit()
 
 # 3. Load test data into new database
 
-print("Loading test data into new database...")
+print("Loading test data into new database. This may take a few minutes...")
 
 artists_file = r'..\datafiles\artists_initial_load.csv'
 
