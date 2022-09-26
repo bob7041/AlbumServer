@@ -30,6 +30,7 @@ import csv
 import sys
 import time
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 import sqlite3
 from sqlite3 import Error
 
@@ -54,17 +55,17 @@ browser = webdriver.Firefox()                 # utf-8 encoding crashes here!
 browser.get('http://localhost:9000/')
 
 # log in
-name = browser.find_element_by_id("loginName")
+name = browser.find_element(By.ID, "loginName") 
 name.clear()
 name.send_keys("bob")
 
-pwd = browser.find_element_by_id("loginPassword")
+pwd = browser.find_element(By.ID, "loginPassword")
 pwd.clear()
 pwd.send_keys("password")
 
 time.sleep (2)
 
-login_btn = browser.find_element_by_id("loginBtn")
+login_btn = browser.find_element(By.ID, "loginBtn")
 login_btn.click()
 
 # verify successfull login
@@ -83,7 +84,7 @@ with open(artists_file) as artists_csv_file:
         print(artist[0] + '|' + artist[1] + '|' + artist[2])
 
         # navigate to Add Artists page
-        add_artists_link = browser.find_element_by_link_text("Add Artist")
+        add_artists_link = browser.find_element(By.LINK_TEXT, "Add Artist")
         add_artists_link.click()
 
         # verify we are on add artists page
@@ -94,16 +95,16 @@ with open(artists_file) as artists_csv_file:
             browser.close ()
             sys.exit("Unable to find Add Artist page. Test terminated.")
 
-        artist_name = browser.find_element_by_name ("artist_name")
+        artist_name = browser.find_element(By.ID, "aname")
         artist_name.send_keys(artist[0])
     
-        artist_city = browser.find_element_by_name("city")
+        artist_city = browser.find_element(By.ID, "acity")
         artist_city.send_keys(artist[1])
     
-        artist_state = browser.find_element_by_name("state")
+        artist_state = browser.find_element(By.ID, "astate")
         artist_state.send_keys(artist[2])
         
-        add_button = browser.find_element_by_id("add_artist")
+        add_button = browser.find_element(By.ID, "add_artist")
         add_button.click()
     
         # verify artists were added to database

@@ -29,24 +29,25 @@ import sys
 import time
 import random
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+#from selenium.webdriver.common.keys import Keys
 
 # hit Album Server site
 browser = webdriver.Firefox()
 browser.get('http://localhost:9000/')
 
 # log in
-name = browser.find_element_by_id("loginName")
+name = browser.find_element(By.ID, "loginName")
 name.clear()
 name.send_keys("bob")
 
-pwd = browser.find_element_by_id("loginPassword")
+pwd = browser.find_element(By.ID, "loginPassword")
 pwd.clear()
 pwd.send_keys("password")
 
 time.sleep (2)
 
-login_btn = browser.find_element_by_id("loginBtn")
+login_btn = browser.find_element(By.ID, "loginBtn")
 login_btn.click()
 
 # if invalid password entered, program hangs (maybe pop-up blocker?)
@@ -60,8 +61,8 @@ else:
     sys.exit("Login failed. Test will terminate.")
 
 # get number of rows in table
-album_table = browser.find_element_by_id("albums_table")
-checkboxes = album_table.find_elements_by_id("buyme")
+album_table = browser.find_element(By.ID, "albums_table")
+checkboxes = album_table.find_elements(By.ID, "buyme")
 table_length = len(checkboxes)
 if table_length < 2:
     browser.close ()
@@ -75,14 +76,14 @@ checkboxes[r].click()
 
 # get the price for checked row
 # rows starts at table header, so add offset of +1
-rows = album_table.find_elements_by_tag_name("tr")
-cols = rows[r+1].find_elements_by_tag_name("td")
+rows = album_table.find_elements(By.TAG_NAME, "tr")
+cols = rows[r+1].find_elements(By.TAG_NAME, "td")
 #cols[0].click()        # I don't know why but this does not work
 price = cols[5].get_property("innerText")
 print("Row " + str(r+1) + " checked. Price: " + str(price))
 
 actual = float(price) 
-expected = float(browser.find_element_by_id("total").get_attribute('value'))
+expected = float(browser.find_element(By.ID, "total").get_attribute('value'))
 if actual == expected:
     print("Test passed. Expected: " + str(expected) + " Actual: " + str(actual))
 else:
